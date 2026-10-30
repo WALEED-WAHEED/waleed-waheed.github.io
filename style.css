@@ -27,3 +27,13 @@ th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-bottom
 th { font-size: 14px; color: var(--muted); font-weight: 600; }
 .table-wrap { overflow-x: auto; }
 footer { max-width: 720px; margin: 0 auto; padding: 24px 16px 40px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+h3 { font-size: 1.05rem; margin: 22px 0 4px; }
+.answer { font-size: 1.12rem; }
+.hero { padding: 8px 0 12px; }
+.hero h1 { font-size: 2rem; }
+.button { display: inline-block; background: var(--accent); color: #fff; font-weight: 700; text-decoration: none; padding: 12px 20px; border-radius: 999px; margin-right: 10px; }
+@media (prefers-color-scheme: dark) { .button { color: #0b1a12; } }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(160px, 100%), 1fr)); gap: 12px; margin: 20px 0; }
+.grid .card { margin: 0; }
+.grid h3 { margin-top: 0; }
+.grid p { margin: 4px 0 0; font-size: 15px; }
